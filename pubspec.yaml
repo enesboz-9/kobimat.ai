@@ -1,0 +1,37 @@
+name: kobimat_mobile
+description: Kobimat mobil uygulaması
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Logo: https://kobimat.ai/images/icon.webp -> assets/images/icon.webp
+    # Klasör olarak listelendiği için dosya henüz yokken de derleme çalışır.
+    - assets/images/
+
+  # ClashGrotesk OTF dosyalarını assets/fonts/ altına koyduktan sonra
+  # aşağıdaki bloğun yorumunu kaldır (font lisansı dağıtımdan önce doğrulanmalı).
+  # fonts:
+  #   - family: ClashGrotesk
+  #     fonts:
+  #       - asset: assets/fonts/ClashGrotesk-Medium.otf
+  #         weight: 500
+  #       - asset: assets/fonts/ClashGrotesk-Semibold.otf
+  #         weight: 600
+  #       - asset: assets/fonts/ClashGrotesk-Bold.otf
+  #         weight: 700

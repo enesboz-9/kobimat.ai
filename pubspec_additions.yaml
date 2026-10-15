@@ -1,0 +1,21 @@
+# pubspec.yaml içine ekle
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Logo: https://kobimat.ai/images/icon.webp dosyasını buraya indir
+    - assets/images/icon.webp
+  fonts:
+    - family: ClashGrotesk
+      fonts:
+        - asset: assets/fonts/ClashGrotesk-Medium.otf
+          weight: 500
+        - asset: assets/fonts/ClashGrotesk-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/ClashGrotesk-Bold.otf
+          weight: 700
